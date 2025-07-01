@@ -78,7 +78,7 @@ function Create() {
         return;
       }
 
-      setLink(`http://localhost:5173/read/${result.id}`);
+      setLink(`https://sendyourfeel.vercel.app/read/${result.id}`);
       setIsSubmitted(true);
 
       // Simpan ke localStorage
@@ -86,7 +86,7 @@ function Create() {
         sender,
         receiver,
         content: message,
-        link: `http://localhost:5173/read/${result.id}`,
+        link: `https://sendyourfeel.vercel.app/read/${result.id}`,
         createdAt: new Date().toISOString(), 
       };
 
