@@ -25,9 +25,9 @@ function History() {
     <div className="min-h-screen pt-[80px] bg-sky-50 py-10 px-4 font-outfit">
       <h1 className="text-center text-4xl font-bold text-cyan-700 mb-8 font-satisfy-regular">Your History</h1>
 
-      <div className="max-w-3xl mx-auto space-y-6">
+      <div className="max-w-3xl mx-auto space-y-6 font-outfit">
         {history.length === 0 ? (
-          <p className="text-center text-gray-400">Belum ada riwayat pesan.</p>
+          <p className="text-center text-gray-400 font-outfit">Belum ada riwayat pesan.</p>
         ) : (
           history.map((item) => (
             <div key={item.id} className="bg-white rounded-2xl shadow p-6 relative border-l-4 border-sky-400">

@@ -38,7 +38,7 @@ function Read() {
 
   if (loading || !data) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-sky-50">
+      <div className="min-h-screen flex items-center justify-center bg-sky-50 font-outfit">
         <p className="text-gray-400">Loading pesan...</p>
       </div>
     );
