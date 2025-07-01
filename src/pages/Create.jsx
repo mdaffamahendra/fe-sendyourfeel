@@ -285,14 +285,12 @@ function Create() {
               </button>
             </div>
             <div className="mt-4 flex justify-center gap-3 flex-wrap">
-              <a
-                href={link}
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                to={link}
                 className="bg-cyan-700 text-white px-4 py-2 rounded-xl hover:bg-sky-600 transition flex items-center gap-2 font-outfit"
               >
                 Buka
-              </a>
+              </Link>
 
               <a
                 href={`https://wa.me/?text=${encodeURIComponent(link)}`}
